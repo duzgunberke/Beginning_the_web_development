@@ -1,0 +1,17 @@
+#container{
+    width: 1140px;
+    background-color:bisque;  
+}
+#yuzde75{
+    width: 75%;
+    background-color: aquamarine;
+    float: left;
+}
+#yuzde25{
+    width: 25%;
+    background-color: coral;
+    float: left;
+}
+#auther-box{
+    border: 1px solid red; 
+}
