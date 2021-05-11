@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatay Menü</title>
+    <style>
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+        }
+        li{
+            display: inline-block;
+            float: left;
+            margin-right: 1px;
+
+        }
+        li a{
+            background: #2f3036;
+            display: block;
+            min-width: 140px;
+            color: white;
+            text-decoration: none;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;      
+          }
+           li a:hover{
+               background-color: yellowgreen;
+           }
+           li:hover ul a{
+                background-color:bisque;
+                color:black;
+                height: 40px;
+                line-height: 40px;
+
+           }
+           li:hover ul a:hover{
+               background-color: yellowgreen;
+               color: black;
+           }
+           li ul li{
+               display: block;
+               float: none;
+               
+           }
+           li ul li a{
+            text-align: left;
+            min-width: 100px;
+            padding: 0 20px;
+           }
+           li ul{
+               display: none;
+           }
+           ul li a:hover + .hidden,.hidden:hover{
+            display: block;
+           }
+           li:hover a{
+               background-color: yellowgreen;
+           }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="">Anasayfa</a>
+        </li>
+        <li>
+            <a href="">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="">Kurslar</a>
+            <ul class="hidden">
+                <li>
+                    <a href="">Dropdown 1</a>
+                </li>
+                <li>
+                    <a href="">Dropdown 2</a>
+                </li>
+                <li>
+                    <a href="">Dropdown 3</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Makale</a>
+        </li>
+        <li>
+            <a href="">İletişim</a>
+        </li>
+      
+    </ul>
+</body>
+</html>
