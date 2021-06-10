@@ -1,0 +1,37 @@
+﻿@using Mvc50Begin.Models.Entity
+@model List<TBL_URUNLER>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Ürünler</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Ürün ID</th>
+        <th>Ürün Adı</th>
+        <th>Markası</th>
+        <th>Kategori</th>
+        <th>Fiyat</th>
+        <th>Stok</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    <tbody>
+        @foreach (var x in Model)
+        {
+        <tr>
+            <td>@x.URUNID</td>
+            <td>@x.URUNAD</td>
+            <td>@x.MARKA</td>
+            <td>@x.TBL_KATEGORILER.KATEGORIAD</td>
+            <td>@x.FIYAT</td>
+            <td>@x.STOK</td>
+            <td><a href="/Urun/Sil/@x.URUNID" class="btn btn-danger">SİL</a></td>
+            <td><a href="/Urun/UrunGetir/@x.URUNID" class="btn btn-success">GÜNCELLE</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+<a href="/Urun/UrunEkle/" class="btn btn-primary">ÜRÜN EKLE</a>
+

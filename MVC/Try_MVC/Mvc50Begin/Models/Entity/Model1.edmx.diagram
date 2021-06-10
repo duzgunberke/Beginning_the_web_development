@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6dc92e2b9364340aef20c21b1380748" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="MvcLearnDbModel.sysdiagrams" Width="1.5" PointX="6.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcLearnDbModel.TBL_KATEGORILER" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcLearnDbModel.TBL_MUSTERILER" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcLearnDbModel.TBL_SATISLAR" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcLearnDbModel.TBL_URUNLER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MvcLearnDbModel.FK_TBL_URUNLER_TBL_KATEGORILER" ManuallyRouted="false" />
+        <AssociationConnector Association="MvcLearnDbModel.FK_TBL_SATISLAR_TBL_MUSTERILER" ManuallyRouted="false" />
+        <AssociationConnector Association="MvcLearnDbModel.FK_TBL_SATISLAR_TBL_URUNLER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

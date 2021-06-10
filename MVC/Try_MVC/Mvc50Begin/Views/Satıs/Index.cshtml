@@ -1,0 +1,37 @@
+﻿@model Mvc50Begin.Models.Entity.TBL_SATISLAR
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Satış Yap
+</button>
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Satış Yapma Ekranı</h2>
+            </div>
+            <form method="post" action="/Satıs/YeniSatis/">
+                <div class="modal-body">
+                    <label>Ürün Adı</label>
+                    @Html.TextBoxFor(m => m.URUN, new { @class = "form-control" })
+                    <br />
+                    <label>Müşteri</label>
+                    @Html.TextBoxFor(m => m.MUSTERI, new { @class = "form-control" })
+                    <br />
+                    <label>Adetı</label>
+                    @Html.TextBoxFor(m => m.ADET, new { @class = "form-control" })
+                    <br />
+                    <label>Fiyat</label>
+                    @Html.TextBoxFor(m => m.FIYAT, new { @class = "form-control" })
+                    <br />
+                    <button class="btn btn-info" type="submit">Satışı Kaydet</button>
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Vazgeç</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

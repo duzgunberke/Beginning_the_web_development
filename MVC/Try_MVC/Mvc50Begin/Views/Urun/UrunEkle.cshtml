@@ -1,0 +1,37 @@
+﻿@model Mvc50Begin.Models.Entity.TBL_URUNLER
+
+@{
+    ViewBag.Title = "UrunEkle";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>UrunEkle</h2>
+<form class="form form-group" method="post">
+    <div>
+        <label>Ürün Ad </label>
+
+        <input type="text" class="form-control" name="URUNAD" placeholder="Ürün Adı..." required="" />
+    </div>
+    <div>
+        <label>Marka</label>
+        <input type="text" class="form-control" name="MARKA" placeholder=" Marka..." required=""/>
+    </div>
+    <div>
+        <label>Kategori</label>
+        @Html.DropDownListFor(x=>x.TBL_KATEGORILER.KATEGORIID,(List<SelectListItem>)ViewBag.dgr,new { @class="form-control"})
+    </div>
+    <div>
+        <label>Fiyat</label>
+        <input type="text" class="form-control" name="FIYAT" placeholder="Fiyat..." required=""/>
+    </div>
+    <div>
+        <label>Stok</label>
+        <input type="text" class="form-control" name="STOK" placeholder="Stok..." required=""/>
+    </div>
+
+
+    <div style="margin-top:15px">
+        <button class="btn btn-info">Ürün Ekle</button>
+    </div>
+</form>
+
