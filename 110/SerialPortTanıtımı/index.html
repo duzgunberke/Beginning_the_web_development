@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Serial Communication Port App</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Berke Düzgün</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Anasayfa</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Tanıtım</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Detaylar</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hey,<br>Ben <span class="home__title-color">Dzgn</span><br> Web Developer & <br>C# Programmer</h1>
+
+                    <a href="#" class="button">Daha Fazla..</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/berke-d%C3%BCzg%C3%BCn/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/berke.dzgn/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/duzgunberke" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="http://duzgunberke.somee.com/Dosyalar/img/me.jpg" alt="" style="border-radius: 50%;">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Tanıtım</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/shutterstock_96185378.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Seri Port Haberleşmesi Uygulaması</h2>
+                        <p class="about__text">Bu projede seri port haberleşmesi yapan bir arayüz tasarladık. Ardunio IDE kullanan arkadaşalar bilirler seri port bölümü vardır sağ üstte. O seri port bölünün üstüne daha da eklemeler koyarak (Text olarak kaydetme, MySQL veri tabanına kayıtlar tutmak gibi) geliştirilmiştir. RealTerm: Serial/TCP Terminal
+                            uygulaması baz alınarak kopyası yapılmaya çalışılmıştır.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Detaylar</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Uygulama Arayüzü</h2>
+                        <p class="skills__text">Sade arayüz ile BAUDE RATE, DATA BITS, STOP BITS, PARITY BITS ayarlamaları ComboBox aracılığı ile yapıyoruz. DTR ve RTS'i aktif etmek için CheckBox'ları tiklememiz gerekiyor.</p>
+                    <div>              
+                        <img src="assets/img/foto1.png" alt="" class="skills__img">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="skills__subtitle">Text Dosyası Olarak Kayıt</h2>
+                    <p class="skills__text">Save to Txt File seçeneğini aktif ederek yazdığımız ve send ettiğimiz içerikleri uygulama dosyaları ıcınde olan txt uzantılı metin belgesine kayıt edilir.</p>
+                <div>              
+                    <img src="assets/img/foto2.png" alt="" class="skills__img">
+                </div>
+            </div>
+            <div>
+                <h2 class="skills__subtitle">Veri Tabanına Kayıt ve Anlık Görüntüleme</h2>
+                <p class="skills__text">MySQL veri tabanına send tuşuna basıp gonderdıgımız içerikler MySQL serverda oluşturğumuz tabloya kaydediliyor. Anlık olarak Show Data diyerek açılan pencereden tabloya eklenen verileri görebiliriz. </p>
+            <div>              
+                <img src="assets/img/foto3.png" alt="" class="skills__img">
+            </div>
+        </div>
+        <div>
+            <h2 class="skills__subtitle">Data Formatını Seçme</h2>
+            <p class="skills__text">Hem gönderici hem de alıcı olduğumuz zamanda göndereceğimiz verinin "Char","Hexdecimal","Binary","Decimal" türlerinden seçim yapıyoruz.</p>
+        <div>              
+            <img src="assets/img/foto4.png" alt="" class="skills__img">
+        </div>
+    </div>
+    <div>
+        <h2 class="skills__subtitle">Gönderici Data Türü</h2>
+        <p class="skills__text">Gönderici iken Data Formatı değiştirildiğinde uyarı mesajı ve (,) kullanarak nasıl gönderim yapılacağına dair küçük bir örnek.</p>
+    <div>              
+        <img src="assets/img/foto5.png" alt="" class="skills__img">
+    </div>
+</div>
+<div>
+    <h2 class="skills__subtitle">Multiple Port</h2>
+    <p class="skills__text">Multiple port seçeneğine tıklayarak tek ekranda aynı anda 2 adet Com Port kontrol edebiliyoruz.</p>
+<div>              
+    <img src="assets/img/foto6.png" alt="" class="skills__img">
+</div>
+</div>
+
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            
+
+            <!--===== CONTACT =====-->
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Dzgn</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/berke-d%C3%BCzg%C3%BCn/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/berke.dzgn/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/duzgunberke" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

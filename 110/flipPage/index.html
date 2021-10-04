@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+         overflow: hidden;
+         background-image: url(https://i.pinimg.com/originals/74/73/cf/7473cf7cb404a24fd1f20e9699492ad6.jpg);
+         -webkit-background-size:cover ;
+         background-size: cover;
+         background-position: center center;
+     }
+     #magazine{
+         margin: 5% auto;
+         width: 600px;
+         height: 500px;
+     }
+     #magazine .turn-page{
+        -webkit-background-size:100% 100% ;
+        background-size: 100% 100%;
+     }
+     
+    </style>
+</head>
+<body>
+
+    <div id="magazine">
+        <div style="background-image: url(196f017f2c5392b3554c37e974e71abb.jpg);"></div>
+        <div style="background-image: url(alps-and-mountains-in-world-4k-la-1366x768.jpg);"></div>
+        <div style="background-image: url(minimal-sunset-landscape-4k-w5.jpg);"></div>
+        <div style="background-image: url(indir.jpg);"></div>
+       
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="turn.min.js"></script>
+    <script>
+            $('#magazine').turn({gradients: true, acceleration: true});
+    </script>
+</body>
+</html>

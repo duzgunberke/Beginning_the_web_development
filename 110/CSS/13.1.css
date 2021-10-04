@@ -1,0 +1,71 @@
+
+/*Pseudo Elements etikete yonelık*/
+p::first-line{
+    color: chartreuse;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+p.about::first-line{
+    color: darkmagenta;
+}
+p::first-letter{
+    font-size: 25px;
+}
+p::after{
+    content:"~deneme" ;
+    display: block;
+    background-color: darkred;
+    padding: 3px;
+}
+
+
+/*Pseudo Class etiketin içindeki  etikete yonelık*/
+ul li:first-child{
+    background-color: darkgoldenrod;
+}
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+ul li:last-child{
+    background-color: darkgoldenrod;
+}
+ul li:nth-of-type(odd){
+    border: 5px solid green;
+}
+ul li:nth-of-type(even){
+    border: 5px solid blue;
+}
+a{
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    width: 85px;
+    border: 2 px solid grey;
+    margin-bottom: 10px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: white;
+    background-color: green;
+
+}
+a:active{
+    color: greenyellow;
+    background-color: indianred;
+}
+span{
+    display: none;
+    background-color: lightblue;
+    padding: 20px;
+}
+div:hover span{  /*Div'in üstüne geldiği zaman spanı etkiliyor*/
+    display: block;
+}

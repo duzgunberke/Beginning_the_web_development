@@ -1,0 +1,68 @@
+.elementor-99 .elementor-element.elementor-element-4915681 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-99 .elementor-element.elementor-element-3b06f18>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-99 .elementor-element.elementor-element-f054c5e {
+    text-align: center;
+}
+
+.elementor-99 .elementor-element.elementor-element-f054c5e .elementor-heading-title {
+    color: #54595F;
+}
+
+.elementor-99 .elementor-element.elementor-element-f054c5e>.elementor-widget-container {
+    padding: 5px 5px 5px 5px;
+    background-color: #EEF6FC;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.elementor-99 .elementor-element.elementor-element-15fea0c {
+    text-align: center;
+}
+
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__prev--label {
+    color: #567EB9;
+}
+
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__next--label {
+    color: #567EB9;
+}
+
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__prev--label,
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__next--label {
+    font-family: "Tahoma", Sans-serif;
+}
+
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__prev--title,
+.elementor-99 .elementor-element.elementor-element-5c905e8 span.post-navigation__next--title {
+    color: #567EB9;
+    font-family: "Tahoma", Sans-serif;
+    font-weight: bold;
+}
+
+.elementor-99 .elementor-element.elementor-element-5c905e8 .post-navigation__arrow-wrapper {
+    color: #567EB9;
+}
+
+body:not(.rtl) .elementor-99 .elementor-element.elementor-element-5c905e8 .post-navigation__arrow-prev {
+    padding-right: 10px;
+}
+
+body:not(.rtl) .elementor-99 .elementor-element.elementor-element-5c905e8 .post-navigation__arrow-next {
+    padding-left: 10px;
+}
+
+body.rtl .elementor-99 .elementor-element.elementor-element-5c905e8 .post-navigation__arrow-prev {
+    padding-left: 10px;
+}
+
+body.rtl .elementor-99 .elementor-element.elementor-element-5c905e8 .post-navigation__arrow-next {
+    padding-right: 10px;
+}

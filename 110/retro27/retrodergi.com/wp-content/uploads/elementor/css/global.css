@@ -1,0 +1,528 @@
+.elementor-widget-heading .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-image .widget-image-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-text-editor {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-button .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-divider .elementor-divider__text {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-star-rating .elementor-star-rating__title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-image-carousel .elementor-image-carousel-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-image-gallery .gallery-item .gallery-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-counter .elementor-counter-number-wrapper {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-counter .elementor-counter-title {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-progress .elementor-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-tabs .elementor-tab-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-tabs .elementor-tab-content {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-accordion .elementor-accordion .elementor-tab-content {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-toggle-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-alert .elementor-alert-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-alert .elementor-alert-description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-theme-site-logo .widget-image-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-theme-site-title .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-theme-page-title .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-theme-post-title .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-theme-post-excerpt .elementor-widget-container {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-theme-post-content {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-theme-post-featured-image .widget-image-caption {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-theme-archive-title .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-archive-posts .elementor-post__title,
+.elementor-widget-archive-posts .elementor-post__title a {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-archive-posts .elementor-post__meta-data {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-archive-posts .elementor-post__excerpt p {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-archive-posts .elementor-post__read-more {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-archive-posts .elementor-post__card .elementor-post__badge {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-archive-posts .elementor-pagination {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-archive-posts .elementor-posts-nothing-found {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-posts .elementor-post__title,
+.elementor-widget-posts .elementor-post__title a {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-posts .elementor-post__meta-data {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-posts .elementor-post__excerpt p {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-posts .elementor-post__read-more {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-posts .elementor-post__card .elementor-post__badge {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-posts .elementor-pagination {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-portfolio .elementor-portfolio-item__title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-portfolio .elementor-portfolio__filter {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-slides .elementor-slide-heading {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-slides .elementor-slide-description {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-slides .elementor-slide-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-form .elementor-field-group>label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-form .elementor-field-group .elementor-field,
+.elementor-widget-form .elementor-field-subgroup label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-form .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-form .elementor-message {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-login .elementor-form-fields-wrapper label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-login .elementor-field-group .elementor-field,
+.elementor-widget-login .elementor-field-subgroup label {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-login .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-login .elementor-widget-container .elementor-login__logged-in-message {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--main {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-nav-menu .elementor-nav-menu--dropdown {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-animated-headline .elementor-headline {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-animated-headline .elementor-headline-dynamic-text {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-price-list .elementor-price-list-header {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-price-list .elementor-price-list-description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-price-table .elementor-price-table__heading {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-price-table .elementor-price-table__subheading {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-price-table .elementor-price-table__price {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-price-table .elementor-price-table__original-price {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-price-table .elementor-price-table__period {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-price-table .elementor-price-table__features-list li {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-price-table .elementor-price-table__button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-price-table .elementor-price-table__additional_info {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-price-table .elementor-price-table__ribbon-inner {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-flip-box .elementor-flip-box__front .elementor-flip-box__layer__title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-flip-box .elementor-flip-box__front .elementor-flip-box__layer__description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-flip-box .elementor-flip-box__back .elementor-flip-box__layer__title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-flip-box .elementor-flip-box__back .elementor-flip-box__layer__description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-flip-box .elementor-flip-box__button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-call-to-action .elementor-cta__title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-call-to-action .elementor-cta__description {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-call-to-action .elementor-cta__button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-call-to-action .elementor-ribbon-inner {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-media-carousel .elementor-carousel-image-overlay {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__text {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__name {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-testimonial-carousel .elementor-testimonial__title {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-reviews .elementor-testimonial__header,
+.elementor-widget-reviews .elementor-testimonial__name {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-reviews .elementor-testimonial__text {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-countdown .elementor-countdown-digits {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-countdown .elementor-countdown-label {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-countdown .elementor-countdown-expire--message {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-search-form input[type="search"].elementor-search-form__input {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-search-form .elementor-search-form__submit {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-author-box .elementor-author-box__name {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-author-box .elementor-author-box__bio {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-author-box .elementor-author-box__button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-widget-post-navigation span.post-navigation__prev--label,
+.elementor-widget-post-navigation span.post-navigation__next--label {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-post-navigation span.post-navigation__prev--title,
+.elementor-widget-post-navigation span.post-navigation__next--title {
+    font-family: "Roboto Slab", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-post-info .elementor-icon-list-item {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-sitemap .elementor-sitemap-title {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-widget-sitemap .elementor-sitemap-item,
+.elementor-widget-sitemap span.elementor-sitemap-list,
+.elementor-widget-sitemap .elementor-sitemap-item a {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}

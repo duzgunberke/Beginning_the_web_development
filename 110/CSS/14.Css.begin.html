@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Css Inherit</title>
+	<style>
+		body{
+            color: aqua;
+            font-size: 20px;
+        }
+        ul{
+            color: darkmagenta;
+        }
+        .orange{
+            color: orange;
+        }
+        #ilkli{
+            color: yellow;
+        }
+        a{
+            color: inherit;
+        }
+        span{
+            color: red;
+            border:1px solid goldenrod;
+        }
+	</style>
+</head>
+
+<body>
+    <!--Etiketin kendinden üstteki etiketlerden etkilenmesi için
+    css kısmında etkilenmesini istedıgım özelliğine inherit yazacağız -->
+    <!-- !important yazarak o css i öncelikli hale getırebılırız -->
+
+	<h1>Web Geliştirme</h1>,
+
+
+	<ul>
+		<li class="orange" id="ilkli">Html5</li>
+		<li>Css</li>
+		<li class="orange">Javascript</li>
+		<li>
+			<a href="#">Jquery</a>
+		</li>
+	</ul>
+
+
+	<div style="color: hotpink;">
+		Lorem ipsum <span>dolor sit amet,</span> consectetur adipisicing.
+	</div>
+
+	<div style="color: lime;">
+		Lorem ipsum <span>dolor sit amet,</span> consectetur adipisicing.
+	</div>
+
+	<div>
+		Lorem ipsum <span>dolor sit amet,</span> consectetur adipisicing.
+	</div>
+
+
+
+</body>
+
+</html>

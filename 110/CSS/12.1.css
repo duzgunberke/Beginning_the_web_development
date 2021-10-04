@@ -1,0 +1,27 @@
+p[title]{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+p[title="third paragraph"]{
+    background-color: orchid;
+}
+p[title~="forth"]{
+    background-color: palegoldenrod;
+}
+a[href^=https]{
+    color: purple;
+}
+a[href$=com]{
+    color: aqua;
+}
+input[type="text"]{
+    display: block;
+    width: 200px;
+    background-color: bisque;
+}
+input[type=button]{
+    background-color: coral;
+    color: chartreuse;
+    padding: 10px 15px;
+    ;
+}

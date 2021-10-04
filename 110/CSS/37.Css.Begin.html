@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        body{
+            background: #f2f2f2;
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+            background: #fff;
+            border-radius: 5px;
+            margin: 20px;
+            display: inline-block;
+        }
+        .card-1{
+            box-shadow: 10px 10px;
+        }
+        .card-2{
+            box-shadow: 10px 10px 20px;
+        }
+        .card-3{
+            
+            -webkit-box-shadow: 10px 10px 20px 20px rgba(255,0,0,.3);
+            box-shadow: 10px 10px 20px 20px rgba(255,0,0,.3);
+        }
+        .card-4{
+            
+            
+        }
+        .card-4:hover{
+            -webkit-box-shadow: 10px 10px 20px 20px rgba(0,255,0,.3);
+            box-shadow: 10px 10px 20px 20px rgba(0,255,0,.3);
+        }
+        .card-6{
+            border:1px solid #bfbfbf ;
+            box-shadow: 10px 10px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="card card-1"></div>
+    <div class="card card-2"></div>
+    <div class="card card-3"></div>
+    <div class="card card-4"></div>
+    <div class="card card-5"></div>
+    
+</body>
+</html>

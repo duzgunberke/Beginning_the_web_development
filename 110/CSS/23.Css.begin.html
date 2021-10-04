@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning</title>
+	<style>
+	
+		.box{
+			width: 120px;
+			height: 120px;
+		}
+
+        .mbox{
+            width: 30px;
+            width: 30px;
+            background-color: yellow;
+            position: absolute; /*sayfanın oankı gorunen kısmında ıstenılen konumuna degerler verılerek akış dısında eklenır*/
+            top: 50px;
+            left: 50px;
+        }
+		
+		#first{
+			background: red;
+            width: 100%;
+            position: sticky; /* belirli bir deger verdikden sonra oraya sabıtlenir*/
+            top: 50px;
+
+		}
+		#second{
+			background: blue;
+            position: relative;
+            
+		}
+		#third{
+			background: green;
+            position:fixed; /*istenilen konuma scrol bar asagı kaysa bıle hep orada kalacak sekılde sabıtlenır*/
+            top: 0;
+            right: 0;
+		}
+		 
+	</style>
+</head>
+<body>	
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor sed asperiores harum, officiis ducimus repellendus sit. Veniam quia, impedit labore in rerum fugiat veritatis est voluptatum cumque necessitatibus dolorum?</p>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum aspernatur officiis repellendus excepturi numquam eius nam corporis nihil saepe, praesentium quisquam consectetur facere tenetur esse, voluptatum delectus temporibus harum.</p>
+	<div class="box" id="first">box 1</div>
+	<div class="box" id="second"><div class="mbox"> . </div></div>
+	<div class="box" id="third">box 3</div>	
+    <div style="height: 2500px;">.</div>
+	
+</body>
+</html>

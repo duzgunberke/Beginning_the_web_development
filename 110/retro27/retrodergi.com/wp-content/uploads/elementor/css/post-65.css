@@ -1,0 +1,43 @@
+.elementor-65 .elementor-element.elementor-element-9f7d27b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-65 .elementor-element.elementor-element-9f7d27b>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-65 .elementor-element.elementor-element-5d58e69:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #EEF6FC;
+}
+
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-element-populated,
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-element-populated>.elementor-background-overlay,
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-background-slideshow {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-element-populated {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-65 .elementor-element.elementor-element-5d58e69>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-65:not(.elementor-motion-effects-element-type-background),
+.elementor-65>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+@media(min-width:768px) {
+    .elementor-65 .elementor-element.elementor-element-5d58e69 {
+        width: 100%;
+    }
+}

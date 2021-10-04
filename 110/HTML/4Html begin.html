@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/resim.jpg" width="200" height="75" alt="Manzara">
+    <br>
+  
+    <form action="/Home/Kayıt/">
+        <p>
+            AD: <input type="text" name="ad" placeholder="adınızı giriniz"  required>
+        </p>
+        <p>
+            SOYAD: <input type="text" name="soyad" placeholder="soyadınızı giriniz" required>
+        </p>
+        <p>
+            Eposta : <input type="email" name="mail" required>
+        </p>
+        <p>
+            BEni Hatırla: <input type="checkbox">
+        </p>
+        <p>
+            Erkek: <input type="radio" name="cinsiyet">
+            Kız: <input type="radio" name="cinsiyet">
+        </p>
+        <p>
+            Hobiler<br>
+            sinema <input type="checkbox" name="hobi">
+            Müzik <input type="checkbox" name="hobi">
+            Spor <input type="checkbox" name="hobi"> 
+        </p>
+        <p>
+            <select name="Sehirler">
+                <option>Kocaeli</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+            </select>
+        </p>
+        <input type="submit" value="Kaydet">
+    </form>
+</body>
+</html>

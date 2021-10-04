@@ -1,0 +1,1 @@
+chrome-extension://molncoemjfmpgdkbdlbjmhlcgniigdnf/naptha-wick.js

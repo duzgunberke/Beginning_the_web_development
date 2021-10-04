@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem;
+    font-size: 2rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*Header*/
+header{
+    height: 45rem;
+    
+}
+header .bg-image{
+    position: absolute;
+   background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png);
+   height: 45rem;
+   width: 100%;
+   background-size:cover;
+   background-position: center;
+   opacity: 0.4;
+   z-index: -1;
+}
+header h1{
+    padding: 11rem;
+    padding-bottom: 0;
+}
+.btn{
+    background:#333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.3s;
+}
+.btn:hover{
+background-color:#eaeaea ;
+color: #333;
+}
+
+/*Section-a*/
+#section-a{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+/*Section-b*/
+#section-b{
+padding: 2rem;
+}
+#section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background: #fff;
+    columns:#333 ;
+    margin-bottom: 1.5rem;
+}
+.col-content{
+    padding: 1.5rem;
+}
+
+/*Section-c*/
+#section-c{
+    background-color: #eaeaea;
+    color:#333 ;
+    padding: 5rem;
+}
+/*section-d*/
+#section-d .box:first-child{
+    background-color: #2690d4;
+}
+#section-d .box{
+    padding: 5rem;
+}
+/*Footer*/
+footer{
+    padding: 4rem;
+    background: #000;
+
+}
+footer a{
+    color:#2690d4; ;
+}
+
+
+@media screen and (min-width:800px) {
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display:inline-block ;
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+    html{
+        font-size:10px ;
+    }
+}
