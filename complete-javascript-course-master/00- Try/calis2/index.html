@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .highlight{
+            background-color: yellowgreen;
+        }
+        .highlight2{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>JQUERY HElper method</h1>
+    <ul>
+        <li>AAA</li>
+        <li>BBB</li>
+        <li>CccC</li>
+    </ul>
+    <input type="text" placeholder="Adınız" id="ad">
+    <input type="text" placeholder="SoyAdınız" class="highlight2"id="soyad">
+    <button id=btnKaydet onclick="adsoyad();">Kaydet</button>
+    <script>
+       console.log($("h1").text());
+       $("h1").text("JAvaScript JQuery");
+       $("input").val("SsSsS");
+
+       function adsoyad(){
+           var ad=$("#ad").val();
+           var soyad=$("#soyad").val();
+
+        console.log(`Adınız ve Soyadınız ${ad} ${soyad}`);
+        $("#ad").addClass("highlight");
+        $("#soyad").removeClass("highlight2");
+       }
+    </script>
+</body>
+</html>
